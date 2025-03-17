@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión Elegante</title>
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    <div class="particles-container" id="particles-container"></div>
+    
+    <div class="login-container">        
+        <h1 class="login-title">Acceso</h1>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Usuario</label>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Contraseña</label>
+            </div>
+            
+            <div class="forgot-password">
+                <a href="#" id="forgotPassword">¿Olvidaste tu contraseña?</a>
+            </div>
+            
+            <button type="submit" class="login-button">INGRESAR</button>
+        </form>
+        
+        <div class="signup-link">
+            ¿No tienes una cuenta? <a href="#" id="signupLink">Regístrate ahora</a>
+        </div>
+    </div>
+    
+    <div class="notification" id="notification">
+        ¡Inicio de sesión exitoso!
+    </div>
+
+    <link rel="stylesheet" href="loginstyles.css">
+    <script src="particles.js"></script>
+</body>
+</html>
